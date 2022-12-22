@@ -1,0 +1,325 @@
+@import url('https://fonts.googleapis.com/css2?family=Rancho&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Joan&family=Patrick+Hand&family=Poppins&family=Shizuru&family=Yantramanav:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Josefin+Sans:ital,wght@1,300&family=Secular+One&display=swap'); 
+*{
+    padding:0;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+#index{
+    width: 100%;
+    height: 100vh;
+    background-image: 
+      url(/tiles.jpg);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    background-attachment:fixed;
+}
+
+
+nav {
+    
+    background-color:  rgba(0,0,0,0.1);
+    overflow: hidden;
+background-attachment: fixed;
+    transition: all ease 0.75s;
+    list-style-type: none;
+    margin-bottom: 40px;
+  }
+  
+ 
+ .navba a {
+    text-decoration: none;
+  }
+  .logo {
+    float: right;
+    color: black;
+    text-align: center;
+    font-size: 29px;
+    text-decoration: none;
+    margin-right: 28px;
+    font-family: "Dancing script", cursive;
+    
+    
+  }  .navba a:hover {
+    background-color: rgb(243, 209, 146);
+    color: black;
+    
+  }
+  
+  
+
+  .navba a.active {
+    background-color: rgb(241, 198, 117);
+    color: black;
+  }
+  .navba a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    
+  }
+  .navba ul{
+    list-style-type: none;
+    word-spacing:10px ;
+    font-family: 'Yantramanav', sans-serif;
+   
+    
+  }
+  .container{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+  }
+ .cardo{
+    background-color: rgb(255, 230, 234);
+    width:270px;
+    height: 420px;
+    margin: 15px;
+    border: solid rgb(236, 236, 236) 1px;
+    border-radius:15px;
+ }
+ .card-image{
+    background-color: rgb(255, 212, 219);
+    height:210px;
+    margin-bottom:15px;
+    background-size: cover;
+    background-position: center;
+border-radius: 15px 15px 0 0;
+  
+ }
+ .car-1{
+    background-image: url(https://staugustinescollege.org/Images/LOGO_0.jpg);
+   
+ }
+ .container h2{
+    font-size: 25px;
+    font-family: 'Poppins';
+    
+ }
+
+ .container p{
+    font-family: 'Noto Sans JP';
+    color:  grey;
+    font-size: 14px;
+   
+ }
+.cardo button:hover{
+    border: rgb(252, 178, 190) 3px solid;
+}
+.car-2{
+    background-image: url(/hello.jpg);
+   
+ }
+ .car-3{
+    background-image: url(/emc2.jpg);
+ }
+ .cardo button{
+    text-align: center;
+    justify-content: center;
+    background-color:pink;
+    padding: 12px;
+    border: solid transparent;
+    border-radius: 4%;
+    margin-left: 74px;
+ }
+ .container2{
+    display: flex;
+justify-content:center;
+margin-bottom:  70px;
+}
+.head-img{
+    float: left;
+    width: 400px;
+    height: 430px;
+    background-color: rgb(255, 205, 131);
+    margin-right: 10px;
+    background-image: url(/cute.jpg);
+    background-size: cover;
+   border: rgb(41, 100, 57) solid 2px;
+   border-radius: 13px;
+}
+.head-text{
+    float: right;
+    width: 500px;
+    height: 400px;
+    margin-left: 10px;
+}
+.head-text h2{
+    font-family: 'Rancho';
+    font-size: 50px;
+}
+.head-text h2 span{
+    width: 400px;
+}
+.blogs-header h2{
+    margin-left: 220px;
+    border-bottom: solid rgb(39, 37, 35) 3px;
+    padding: 11px;
+    width: 900px;
+
+}
+footer{
+    text-align: center;
+   
+
+}
+footer span{
+    margin:50px;
+}
+.blog-header-title{
+    font-family: 'Lexend Deca';
+    font-size: 48px;
+    line-height: 60px;
+    font-weight: 500;
+    color: rgb(46, 71, 93);
+    margin-left: 40px
+}
+.bi{
+    color: green;
+}
+.author span{
+    font-family: 'Lexend Deca';
+    color:rgb(69, 105, 136); 
+}
+.author{
+    
+    margin-left: 40px;
+    margin-top: 60px;
+    border-bottom: solid 2px rgb(9, 9, 65);
+    border-top: solid 2px rgb(9, 9, 65);
+    width: 1200px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.date span{
+    float: right;
+   
+}
+
+
+.date{
+    font-family: 'Lexend Deca';
+    margin-right: 115px;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+.blog-main-text{
+    font-family: 'Georgia', sans-serif;
+    font-size: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.blog-main-text h3{
+    color: rgb(46, 71, 93);
+    font-family: 'Lexend Deca';
+}
+.me{
+    display:flex;
+    justify-content: center;
+    
+}
+.share{
+   
+    font-family: 'Lexend Deca';
+    margin-left: 40px;
+    margin-right: 40px;
+    float: left;
+    
+}
+.share a {
+    color: rgb(13, 13, 53);
+    text-decoration: none;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.envelopehover{
+color: white;
+}
+.envelope{
+color: white;
+}
+.envelope-text{
+    font-family: "Rancho";
+    color: white;
+    font-size:24px;
+}
+.envelope-texthover{
+   color: white;
+}
+.emailbut:hover{
+   border: solid rgb(252, 127, 148) 3px; 
+    
+    pading: 7px 13px 7px 13px;
+}
+
+ @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&family=Poppins&family=Rancho&display=swap'); 
+.emailbut{
+    padding: 6px 12px 6px 12px;
+    border: rgb(10, 5, 6) solid 1px;
+    font-style: light;
+    border-radius: 4px;
+    background-color: rgb(252, 127, 148);
+    border: 1px solid rgb(252, 127, 148);
+    display: inline-block;
+}
+.like, .dislike{
+    padding: 6px 12px 6px 12px;
+    border: solid 1px rgb(130, 195, 255);
+    background-color: white;
+    display: inline-block;
+
+}
+.clicked{
+    background-color: rgb(130, 195, 255);
+
+}
+.like-outer{
+    width: 250px;
+    float: left;
+  }
+  .like-area{
+    width:100%;
+    float: left;
+  }
+  .like-area ul{
+    list-style: none;
+    margin: 0px
+  }
+  .like-area ul li{
+    display: inline-block;
+    margin: 0px 5px 0px 0px;
+  }
+  .like-area ul li a{
+    width: 100%;
+    padding: 10px;
+    font-size: 25px;
+    color: #000;
+    cursor: pointer;
+    float: left;
+    -webkit-user-select: none; /* Safari */      
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+/Edge */
+    user-select: none; /* Standard */
+  }
+  .like-no{
+    font-size: 20px;
+  }
+  .like-area i{
+    float: left;
+  }
+  .like-area .fas{
+    font-size: 0px;
+  }
+  .like-active .fas{
+   font-size: 25px;
+  }
+  .like-active .far{
+   font-size: 0px;
+  }
